@@ -1,9 +1,10 @@
 {
-  "name": "cli-number_guessing",
+  "name": "salmandanish03-cli-number_guessing",
   "version": "1.0.0",
   "description": "This is Cli base_-Number_guessing game.",
   "main": "index.js",
   "type": "module",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
