@@ -4,7 +4,7 @@ import inquirer from "inquirer";
 // User input for guessing the number (done)
 // compare user input with computer generated number and show the result (done)
 const randomNumber = Math.floor(Math.random() * 10 + 1);
-// console.log(randomNumber);
+console.log("Well Come to the Number Guessing Game");
 const answers = await inquirer.prompt([
     {
         name: "userGuessedNumber",
